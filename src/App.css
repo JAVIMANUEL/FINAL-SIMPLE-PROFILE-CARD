@@ -1,0 +1,134 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #6c6a6a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 680px;
+  height: 825px;
+  background: #FFFFFF;
+  overflow: hidden;
+  position: relative;
+}
+
+.card .card-header {
+  flex: 0.3;
+  height: 100px;
+}
+
+.card .card-header img {
+  width: 691px;
+  height: 250px;
+}
+
+.card .card-content {
+  
+  position: relative;
+  bottom: -110px;
+}
+
+.card .card-content img {
+  border-radius: 50%;
+  transform: translateY(-50%);
+  border: 7px solid #fefefe;
+}
+
+.text {
+  position: relative;
+  bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.name {
+  font-weight: bold;
+  font-size: 48px;
+  color: #000000;
+}
+
+.profession  {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.quote  {
+  font-size: 24px;
+  width : 426px;
+  height : 93px;
+  margin-top: 17px;
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+line-height: 31px;
+text-align: center;
+}
+.card .card-footer {
+  position: relative;
+  bottom: -100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: hsl(229, 23%, 23%);
+}
+
+.card .card-footer .footer-item {
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 31px;
+}
+
+.card .card-footer .footer-item .status {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card .card-footer .footer-item .item-name {
+  color: hsl(227, 10%, 46%);
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+.attribution {
+  line-height: 3rem;
+  font-size: 1rem;
+  text-align: center;
+  color: hsl(229, 23%, 23%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
